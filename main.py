@@ -17,8 +17,8 @@ logging.basicConfig(
 )
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = "7769910515:AAFYC51mP05N5jVIn00C3IeI6v0qO190_eI"
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # এখানে আপনার আসল Gemini API Key বসাবেন
+TELEGRAM_BOT_TOKEN = "8977193603:AAGC7iwTFL4_pI3Qsdr-4Od9Lxcz4Ucn72A"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # এখানে আপনার Gemini API Key বসাবেন
 
 # Initialize Gemini Client
 client = genai.Client(api_key=GEMINI_API_KEY)
