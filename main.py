@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = "8880704616:AAFQMTk0TMj7sManEPdoJIbCOK9UoKZO-JM"
+TELEGRAM_BOT_TOKEN = "8880704616:AAF-goq7drNp7myP0YXj45oUWV5iIQxMXN4"
 GEMINI_API_KEY = "AQ.Ab8RN6JLYs5EMt7zqgCdWUzmqVgpmzM8V1FPBgJnSbN4nJWIwg"
 
 # Initialize Gemini Client
@@ -100,8 +100,8 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "• জেলা পুলিশ কন্ট্রোল রুম: `01320-121699`\n"
             "• জেলা ডিবি পুলিশ (ওসি-১): `01320-121102`\n\n"
             "📌 **নির্দিষ্ট থানার তথ্য দেখতে কমান্ড ব্যবহার করুন:**\n"
-            "👉 `/sadar` (সদর থানা ও ওসি/ডিউটি অফিসার)\n"
-            "👉 `/dowarabাজার` বা `/dowara` (দোয়ারাবাজার থানা)\n"
+            "👉 `/sadar` (সদর থানা)\n"
+            "👉 `/dowara` (দোয়ারাবাজার থানা)\n"
             "👉 `/chhatak` (ছাতক থানা)\n"
             "👉 `/jagannathpur` (জগন্নাথপুর থানা)\n"
             "👉 `/bishwambharpur` (বিশ্বম্ভরপুর থানা)\n"
